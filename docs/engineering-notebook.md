@@ -36,7 +36,7 @@ WSL adds another environment layer that must be configured and maintained. Windo
 Evidence / verification:
 
 * Local setup documented in `README.md`
-* Project location verified with `pwd`: `/home/________/capstone/________`
+* Project location verified with `pwd`: `/home/hudsonhadley/capstone/my-platform`
 * Git commands executed from the WSL repository
 * Repository location verified to be inside the Linux filesystem
 
@@ -98,7 +98,7 @@ Evidence / verification:
 * GitHub ruleset: `Protect main`
 * Pull requests required before merge
 * Direct push to protected `main` rejected by the repository ruleset
-* Initial project-structure PR: #___
+* Initial project-structure PR: #1
 
 ### Repository Structure and Engineering Conventions
 
@@ -135,7 +135,7 @@ Repository conventions should reduce friction rather than create unnecessary rul
 
 Evidence / verification:
 
-* Project structure introduced through PR #___
+* Project structure introduced through PR #1
 * Engineering style guide: `docs/style-guide.md`
-* Style guide introduced or updated through PR #___
+* Style guide introduced or updated through PR #3
 * Repository structure visible from the project root
