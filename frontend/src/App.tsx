@@ -12,7 +12,7 @@ function App() {
         This site will present my software projects, engineering decisions, and production systems.
       </p>
 
-      <p>Initial frontend setup in progress.</p>
+      <p>Initial frontend setup is in progress.</p>
     </main>
   )
 }
