@@ -11,10 +11,11 @@ function App() {
         />
         <h1 className="mt-3 text-3xl font-bold sm:text-4xl">Hudson Hadley</h1>
         <h2 className="text-lg font-medium text-blue-600">
-          Computer Science | Backend Development
+          Computer Science | Software Development
         </h2>
         <p className="mt-2 max-w-[50ch] leading-relaxed">
-          I am a senior Computer Science major interested in backend development.
+          I am a senior Computer Science major interested in development,
+          focusing particularly on backend.
           I have a passion for solving people's problems, providing fast, efficient,
           and deployable solutions.
         </p>
