@@ -4,15 +4,15 @@ function App() {
 
   return (
     <main>
-      <h1>Hudson Hadley</h1>
+      <section>
+        <h1>Hudson Hadley</h1>
 
-      <h2>Senior Capstone Production Platform</h2>
+        <h2>Software Engineering | Senior Capstone Production Platform</h2>
 
-      <p>
-        This site will present my software projects, engineering decisions, and production systems.
-      </p>
-
-      <p>Initial frontend setup is in progress.</p>
+        <p>
+          
+        </p>
+      </section>
     </main>
   )
 }
