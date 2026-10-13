@@ -1,9 +1,11 @@
 import './App.css'
+import headshot from './assets/headshot.jpg'
 
 function App() {
   return (
     <main>
       <section>
+        <img src={headshot} alt="Headshot of Hudson Hadley" />
         <h1>Hudson Hadley</h1>
         <h2>Computer Science | Backend Development</h2>
         <p>
