@@ -1,6 +1,20 @@
 import headshot from './assets/headshot.jpg'
 
+type ReportKind = 'bug' | 'feature'
+
+type Report = {
+  id: string
+  text: string
+  kind: ReportKind
+}
+
 function App() {
+  const sampleReport: Report = {
+    id: '1',
+    text: 'Navigation link is broken',
+    kind: 'bug',
+  }
+
   return (
     <main className="mx-auto max-w-[640px] px-4 py-10 text-center sm:px-6 sm:py-16">
       <section className="flex flex-col items-center gap-3">
@@ -18,6 +32,12 @@ function App() {
           focusing particularly on backend.
           I have a passion for solving people's problems, providing fast, efficient,
           and deployable solutions.
+        </p>
+      </section>
+      <section className="report-board">
+        <h2>Bugs & Feature Requests</h2>
+        <p>
+          {sampleReport.text} ({sampleReport.kind})
         </p>
       </section>
     </main>
